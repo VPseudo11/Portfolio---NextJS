@@ -28,7 +28,7 @@ export function Projects({ theme }) {
                         projects.map((item, index) => (
                             <SwiperSlide key={index}>
                                 <div className='flex flex-col items-center gap-6'>
-                                    <Image src={projectsImages[index]} />
+                                    <Image src={projectsImages[index]} alt={'project ' + index} />
                                     <div className='mb-6 w-9/12 text-text-dark dark:text-text-clear'>
                                         <h1 className='font-bold mb-3 text-xl '>{item.title}</h1>
                                         <ul>

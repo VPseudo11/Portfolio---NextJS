@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { BsCodeSquare, BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Hero } from '@/components/Hero'
 import { About } from '@/components/About'
 import { Skills } from '@/components/Skills'
@@ -13,11 +13,6 @@ import { Footer } from '@/components/Footer'
 export default function Home() {
     const [darkMode, setDarkMode] = useState(true)
 
-    const onToggleMenu = e => {
-        const navLinks = document.querySelector('.nav-links')
-        navLinks.classList.toggle('left-[0%]')
-    }
-
     return (
         <div className={darkMode ? 'dark bg-bg-clear' : 'bg-bg-dark'}>
             <Head>
@@ -26,7 +21,6 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <canvas className="background"></canvas>
             <header className="fixed top-0 bg-bg-dark dark:bg-bg-clear flex w-screen h-16 justify-center z-10">
                 <nav className='border-b-[1px] flex items-center justify-between max-w-6xl w-full mx-6 md:mx-0'>
                     <h1 className='text-links-dark dark:text-links-clear text-2xl'>
@@ -35,7 +29,7 @@ export default function Home() {
                             Ps3udo<span className='text-text-dark dark:text-text-clear'>Dev</span>
                         </Link>
                     </h1>
-                    <div className='nav-links duration-500 md:static absolute md:min-h-fit bg-text-clear dark:bg-bg-clear min-h-[30vh] left-[-100%] top-16 md:w-auto w-full flex items-center px-6'>
+                    <div className='nav-links duration-500 md:static absolute md:min-h-fit bg-text-clear dark:bg-bg-clear min-h-[30vh] top-16 md:w-auto w-full flex items-center px-6 left-[-100%]'>
                         <ul className='text-text-dark font-bold dark:text-text-clear flex flex-col md:flex-row md:items-center md:gap-6 gap-9'>
                             <li className='transition hover:text-links-dark dark:hover:text-links-clear'>
                                 <Link href='#about'>About Me</Link>
@@ -57,7 +51,10 @@ export default function Home() {
                             className='text-bg-clear dark:text-text-clear cursor-pointer text-2xl'
                         />
                         <AiOutlineMenu
-                            onClick={onToggleMenu}
+                            onClick={() => {
+                                const nav = document.querySelector('.nav-links')
+                                nav.classList.toggle('left-[0%]')
+                            }}
                             className='text-bg-clear dark:text-text-clear cursor-pointer text-2xl md:hidden'
                         />
                     </div>
