@@ -3,11 +3,11 @@
         "id": 1,
         "title": "Pokedex",
         "description": [
-            "Consumo de la PokéAPI mediante Axios",
-            "Uso de React para la interfaz de usuario",
-            "Aplicacion de Styled Components",
-            "Almacenamiento del nombre del entrenador en un estado global usando Redux Toolkit",
-            "Manejo de rutas mediante react-router-doom"
+            "Consumo de la PokéAPI mediante Axios.",
+            "Uso de React para la interfaz de usuario.",
+            "Aplicación de Styled Components.",
+            "Almacenamiento del nombre del entrenador en un estado global usando Redux Toolkit.",
+            "Manejo de rutas mediante react-router-doom."
         ],
         "link": "https://luxury-cendol-967758.netlify.app",
         "repository": "https://github.com/VPseudo11/Pok-dex.git"
@@ -16,11 +16,11 @@
         "id": 3,
         "title": "Rick and Morty's API",
         "description": [
-            "Consumo de Rick and Morty AP mediante Axios",
-            "Uso de React para la interfaz de usuario",
-            "Aplicacion de Styled Components",
-            "Obtencion aleatoria de ubicaiones al ingresar a la pagina",
-            "Manejo de busqueda por tipo, nombre y dimension"
+            "Consumo de Rick and Morty AP mediante Axios.",
+            "Uso de React para la interfaz de usuario.",
+            "Aplicación de Styled Components.",
+            "Obtención aleatoria de ubicaciones al ingresar a la página.",
+            "Manejo de búsqueda por tipo, nombre y dimensión."
         ],
         "link": "https://magical-moonbeam.netlify.app",
         "repository": "https://github.com/VPseudo11/Entregable-3-1.git"
@@ -29,12 +29,12 @@
         "id": 2,
         "title": "Weather App",
         "description": [
-            "Consumo de OpenWeatherAPI para la obtencion del clima",
-            "Obtencion de ubicacion mediante el uso de GEO Services by MVPC.com",
-            "Obtencion de la ubicacion actual mediante la geolocalizacion del navegador",
-            "Consultas a la api usando fetch",
-            "Uso de React para la interfaz de usuario",
-            "Obtencion del pronostico climatico de los siguientes 7 dias"
+            "Consumo de OpenWeatherAPI para la obtención del clima.",
+            "Obtención de ubicación mediante el uso de GEO Services by MVPC.com.",
+            "Obtención de la ubicación actual mediante la geolocalización del navegador.",
+            "Consultas a la api usando fetch.",
+            "Uso de React para la interfaz de usuario.",
+            "Obtención del pronostico climático de los siguientes 7 días."
         ],
         "link": "https://dev-time-tech.netlify.app",
         "repository": "https://github.com/VPseudo11/Time-Tech.git"
