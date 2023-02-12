@@ -15,7 +15,7 @@ export default function Home() {
 
     const onToggleMenu = e => {
         const navLinks = document.querySelector('.nav-links')
-        navLinks.classList.toggle('top-[100%]')
+        navLinks.classList.toggle('left-[0%]')
     }
 
     return (
@@ -35,7 +35,7 @@ export default function Home() {
                             Ps3udo<span className='text-text-dark dark:text-text-clear'>Dev</span>
                         </Link>
                     </h1>
-                    <div className='nav-links duration-500 md:static absolute md:min-h-fit bg-text-clear dark:bg-bg-clear min-h-[30vh] left-0 top-[-500%] md:w-auto w-full flex items-center px-6'>
+                    <div className='nav-links duration-500 md:static absolute md:min-h-fit bg-text-clear dark:bg-bg-clear min-h-[30vh] left-[-100%] top-16 md:w-auto w-full flex items-center px-6'>
                         <ul className='text-text-dark font-bold dark:text-text-clear flex flex-col md:flex-row md:items-center md:gap-6 gap-9'>
                             <li className='transition hover:text-links-dark dark:hover:text-links-clear'>
                                 <Link href='#about'>About Me</Link>
