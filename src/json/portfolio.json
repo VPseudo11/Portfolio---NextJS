@@ -38,5 +38,22 @@
         ],
         "link": "https://dev-time-tech.netlify.app",
         "repository": "https://github.com/VPseudo11/Time-Tech.git"
+    },
+    {
+        "id": 3,
+        "title": "MoveMind Academy - API",
+        "description": [
+            "Creación de la API REST para MoveMind Academy",
+            "Diseño de la base de datos",
+            "Autenticación de Usuarios y manejo de roles",
+            "Implementación de la lógica de negocio en todas las rutas disponibles",
+            "Manejo de rutas Protegidas",
+            "Uso de firebase storage para el manejo del contenido multimedia",
+            "Uso de Sequelize con PostgreSQL",
+            "Documentación de la API con swagger",
+            "Despliegue de la API"
+        ],
+        "link": "https://nc-movemind-academy-git-main-nocountryc9-16.vercel.app/",
+        "repository": "https://github.com/No-Country/CN-09-16-REACTJS.git"
     }
 ]

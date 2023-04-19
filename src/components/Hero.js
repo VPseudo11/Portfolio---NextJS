@@ -11,7 +11,7 @@ export function Hero({theme}) {
                     <p className="text-lg leading-8 text-text-dark dark:text-text-clear">I love cats, new challenges and web programming.</p>
                 </div>
                 <div className='flex items-center mx-6'>
-                    <Image className="rounded-3xl" width={500} height='auto' src={profile} alt="Profile image" priority />
+                    <Image className="rounded-3xl" width={500} height='auto' src={profile} alt={profile} priority />
                 </div>
             </div>
         </div>
